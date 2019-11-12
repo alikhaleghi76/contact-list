@@ -37,4 +37,9 @@ dependencies {
     // Room ORM
     implementation "android.arch.persistence.room:runtime:2.2.1"
     kapt "android.arch.persistence.room:compiler:2.2.1"
+
+    //Koin (DI)
+    implementation "org.koin:koin-core:2.0.1"
+    implementation 'org.koin:koin-android-viewmodel:2.0.1'
+
 }
